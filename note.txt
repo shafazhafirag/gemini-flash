@@ -1,0 +1,8 @@
+mkdir gemini-flash-api
+cd gemini-flash-api
+npm init -y
+npm install express dotenv @google/genai multer     
+
+isi file .env 
+GEMINI_API_KEY=your_credential_key
+          
